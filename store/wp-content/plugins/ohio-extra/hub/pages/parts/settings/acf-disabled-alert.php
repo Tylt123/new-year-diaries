@@ -1,0 +1,5 @@
+<div class="notice notice-error settings-error is-dismissible">
+    <p><b class="title"><?php _e( 'The Advanced Custom Fields PRO plugin is required to make Theme Settings work properly.', 'ohio-extra' ); ?></b> <?php _e( 'A bundled version of the Advanced Custom Fields PRO plugin is provided with your purchase for free.', 'ohio-extra' ); ?> <a target="_blank" rel="noopener" href="https://docs.clbthemes.com/ohio/getting-started/#bundled_plugins"><?php _e( 'Read more', 'ohio-extra' ); ?></a></p><a href="<?php echo admin_url('themes.php?page=install-required-plugins'); ?>" class="btn"><?php _e( 'Install ACF Pro', 'ohio-extra' ); ?></a> <a href="<?php echo admin_url('plugins.php'); ?>" class="btn btn-outline"><?php _e( 'Manage Installed Plugins', 'ohio-extra' ); ?></a>
+</div>
+
+<?php include __DIR__ . '/../footer.php'; ?>

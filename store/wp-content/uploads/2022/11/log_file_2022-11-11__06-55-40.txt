@@ -1,0 +1,46 @@
+
+---Downloaded files---
+The import files for: Demo 18 - Apparel Shop were successfully downloaded!
+Initial max execution time = 120
+Files info:
+Site URL = https://store.newyeardiaries.com
+Data file = /home/u355376137/domains/newyeardiaries.com/public_html/store/wp-content/uploads/2022/11/demo-content-import-file_2022-11-11__06-55-40.xml
+Widget file = /home/u355376137/domains/newyeardiaries.com/public_html/store/wp-content/uploads/2022/11/demo-widgets-import-file_2022-11-11__06-55-40.json
+Customizer file = not defined!
+Redux files:
+not defined!
+
+---Importing widgets---
+Pages : 
+
+Custom HTML - No Title - Imported
+Custom HTML - Barcelona - Imported
+Custom HTML - Rotterdam - Imported
+
+Footer column 1 : 
+
+Ohio: Logo - No Title - Imported
+Custom HTML - No Title - Imported
+
+Footer column 2 : 
+
+Custom HTML - Rotterdam - Imported
+Custom HTML - Barcelona - Imported
+
+Footer column 3 : 
+
+Custom HTML - Work inquiries - Imported
+Custom HTML - Career - Imported
+
+Footer column 4 : 
+
+Ohio: Subscribe Form - Sign up for the newsletter - Imported
+
+Shop : 
+
+Categories - No Title - Imported
+
+
+
+---pt-ocdi/after_import---
+

@@ -1,0 +1,26 @@
+2022-11-13T04:43:00+00:00 INFO Creating razorpay webhook
+2022-11-13T04:47:22+00:00 INFO Updating razorpay webhook
+2022-11-13T04:48:57+00:00 INFO Called process_payment with params order_id 21683
+2022-11-13T04:48:57+00:00 INFO Set transient with key razorpay_wc_order_id params order_id 21683
+2022-11-13T04:48:58+00:00 INFO getRazorpayPaymentParams 21683
+2022-11-13T04:48:58+00:00 INFO createOrGetRazorpayOrderId 21683 and is1ccCheckout is set to no
+2022-11-13T04:48:58+00:00 INFO Called createOrGetRazorpayOrderId with params orderId 21683 and is_magic_checkout_order is set to no
+2022-11-13T04:48:58+00:00 INFO razorpayOrderId  | sessionKey razorpay_order_id21683
+2022-11-13T04:48:58+00:00 INFO Called createRazorpayOrderId with params orderId 21683 and sessionKey razorpay_order_id21683
+2022-11-13T04:48:58+00:00 INFO Called getOrderCreationData with params orderId 21683
+2022-11-13T04:48:58+00:00 INFO Called getOrderCreationData with params orderId 21683 and is1ccOrder is set to no
+2022-11-13T04:48:58+00:00 INFO For order 21683
+2022-11-13T04:48:58+00:00 INFO {"receipt":21683,"amount":200,"currency":"INR","payment_capture":1,"app_offer":0,"notes":{"woocommerce_order_number":"21683"}}
+2022-11-13T04:48:59+00:00 INFO For order session key razorpay_order_id21683
+2022-11-13T04:49:33+00:00 INFO Called check_razorpay_response: wc_order_OGhJVK1uL8HFx
+2022-11-13T04:49:33+00:00 INFO Get order id in check_razorpay_response: orderId 21683
+2022-11-13T04:49:33+00:00 INFO verifySignature orderId: 21683
+2022-11-13T04:49:33+00:00 INFO verifySignature attr
+2022-11-13T04:49:33+00:00 INFO {"razorpay_payment_id":"pay_KfOfEzf1G95X89","razorpay_signature":"daaf6ba9269e755b0ffe32c6d0b6b06470ee9f64aed449a4e7feb3f02af65f6a","razorpay_order_id":"order_KfOf3eCzyo0oOC"}
+2022-11-13T04:49:33+00:00 INFO updateOrder orderId: 21683 , razorpayPaymentId: pay_KfOfEzf1G95X89 , success: 1
+2022-11-13T04:49:33+00:00 INFO Order details check initiated step 1 for the orderId: 21683
+2022-11-13T04:49:34+00:00 INFO Woocommerce orderId: 21683 processed through callback
+2022-11-13T04:54:32+00:00 INFO Woocommerce orderId: 21683 webhook process intitiated
+2022-11-13T04:54:32+00:00 INFO Woocommerce orderId: 21683 webhook process intitiated for payment authorized event
+2022-11-13T04:54:32+00:00 INFO Woocommerce orderId: 21683 order status: processing
+2022-11-13T04:54:32+00:00 INFO Woocommerce orderId: 21683 webhook process exited with need payment status :
